@@ -1,0 +1,2052 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Forming Questions in English</title>
+  <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Forming Questions in English</h1>
+<div class="instructions">
+  <p>Estas son tarjetas interactivas diseñadas para ayudarte a practicar cómo formar preguntas en inglés.</p>
+  <p>Lee la pregunta en español e intenta pensar (o decir en voz alta) cómo sería en inglés.</p>
+  <p>Haz clic en la tarjeta para ver la traducción correcta en inglés.</p>
+  <p>Después, haz clic en el botón 🔊 para escuchar la pronunciación correcta.</p>
+</div>
+<div class="featured-image">
+  <img src="questions.png" alt="Laura from La Londinense">
+</div>
+
+<div class="filter-controls">
+  <label for="frikiFilter">Filter by Friki:</label>
+  <select id="frikiFilter">
+    <option value="all">All Frikis</option>
+    <option value="To Be (1)">To Be (1)</option>
+    <option value="To Have (2)">To Have (2)</option>
+    <option value="To Be Able to (3)">To Be Able to (3)</option>
+    <option value="Do (4)">Do (4)</option>
+  </select>
+</div>
+
+
+ <label for="tenseFilter">Verb Tense:</label>
+<select id="tenseFilter">
+  <option value="all">All Tenses</option>
+  <option value="Present">Present</option>
+  <option value="Past">Past</option>
+  <option value="Future">Future</option>
+  <option value="Conditional">Conditional</option>
+  <option value="Perfect">Perfect</option>
+</select>
+
+  <label for="typeFilter">Question Type:</label>
+<select id="typeFilter">
+  <option value="all">All Types</option>
+  <option value="Modo Friki">Modo Friki</option>
+  <option value="Modo Normal">Modo Normal</option>
+  <option value="-Wh Q Word">-Wh Q Word</option>
+  <option value="Modals">Modals</option>
+  <option value="Question Tags">Question Tags</option>
+  <option value="Rhetoricals">Rhetoricals</option>
+</select>
+</div>
+  <div class="flashcard-container">
+    
+
+<div class="card" data-friki="To Be (1)" data-tense="Present" data-type="Modo Friki" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Soy gracioso?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Am I funny?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp3')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Present" data-type="Modo Friki" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Tienes hambre?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Are you hungry?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp4')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Present" data-type="Modo Friki" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Él es alto?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Is he tall?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp5')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Have (2)" data-tense="Perfect" data-type="Modo Friki" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Lo has visto?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Have you seen it?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp6')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Have (2)" data-tense="Perfect" data-type="Modo Friki" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Él ha comido?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Has he eaten?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp7')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Present" data-type="Modo Friki" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Ella puede pintar?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Can she paint?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp8')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Past" data-type="Modo Friki" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Fui gracioso?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Was I funny?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp9')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Past" data-type="Modo Friki" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Tenías hambre?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Were you hungry?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp10')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Have (2)" data-tense="Perfect" data-type="Modo Friki" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Lo habías visto?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Had you seen it?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp11')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be Able to (3)" data-tense="Past" data-type="Modo Friki" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Ella podía pintar?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Could she paint?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp12')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Present" data-type="Modo Normal" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Necesito estar allí?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Do I need to be there?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp13')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Present" data-type="Modo Normal" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Tienes una mascota?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Do you have a pet?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp14')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Present" data-type="Modo Normal" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Él habla inglés?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Does he speak English?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp15')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Present" data-type="Modo Normal" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Ella usa Instagram?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Does she use Instagram?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp16')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Present" data-type="Modo Normal" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Él tiene una bici?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Does he have a bike?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp17')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Present" data-type="Modo Normal" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Funciona?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Does it work?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp18')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Present" data-type="Modo Normal" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Necesitamos ayuda?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Do we need help?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp19')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Present" data-type="Modo Normal" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Te gusta el chocolate?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Do you like chocolate?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp20')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Present" data-type="Modo Normal" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Ellos hacen ejercicio?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Do they do exercise?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp21')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Past" data-type="Modo Normal" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Necesitaba estar allí?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Did I need to be there?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp22')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Past" data-type="Modo Normal" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Tenías una mascota?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Did you have a pet?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp23')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Past" data-type="Modo Normal" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Él hablaba inglés?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Did he speak English?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp24')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Past" data-type="Modo Normal" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Ella usaba Instagram?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Did she use Instagram?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp25')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Present" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Qué es eso?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>What is that?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp26')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Present" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Cuál es tu comida favorita?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>What is your favourite food?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp27')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Present" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Cómo te llamas?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>What is your name?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp28')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Present" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Dónde vives?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Where do you live?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp29')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Present" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Cuándo es la reunión?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>When is the meeting?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp30')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Present" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Por qué estás aprendiendo inglés?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Why are you learning English?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp31')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Present" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Quién es tu profesor?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Who is your teacher?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp32')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Present" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Qué bolígrafo quieres, el negro o el rojo?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Which pen do you want, the black one or the red one?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp33')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Present" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Cómo vas al trabajo?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>How do you get to work?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp34')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Present" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Cuánto cuesta este bolso?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>How much is this bag?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp35')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Present" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Cuánto dinero tienes?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>How much money do you have?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp36')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Present" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Cuántas sillas necesitas?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>How many chairs do you need?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp37')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Present" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Cuántos años tienes?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>How old are you?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp38')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Present" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Qué hora es?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>What time is it?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp39')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Present" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿A qué hora tienes baloncesto?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>(At) what time do you have basketball?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp40')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Present" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Qué color quieres?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>What colour do you want?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp41')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Present" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿De qué color son tus ojos?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>What colour are your eyes?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp42')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Present" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Cuál prefieres?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Which one do you prefer?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp43')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Present" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿De quién es este teléfono?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Whose phone is this?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp44')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Present" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿De quién es el coche que está aparcado fuera?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Whose car is parked outside?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp45')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Past" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿De quién fue la idea de cambiar el plan?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Whose idea was it to change the plan?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp46')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Past" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿A quién llamaste?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Whom did you call?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp47')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Modal" data-tense="Conditional" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿A quién debería contactar para más información?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Whom should I contact for more information?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp48')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Past" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Con quién fuiste a la fiesta?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>With whom did you go to the party?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp49')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Present" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿En qué parte de España vives?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Whereabouts in Spain do you live?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp50')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Present" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Dónde está el hotel?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Whereabouts is the hotel?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp51')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Past" data-type="-Wh Q Word" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Dónde dejaste tu bolso?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Whereabouts did you leave your bag?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp52')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Future" data-type="Modals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Serás médico?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Will you be a doctor?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp53')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Modal" data-tense="Conditional" data-type="Modals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Iríamos?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Would we go?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp54')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Modal" data-tense="Conditional" data-type="Modals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Ella podría hacer eso?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Could she do that?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp55')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Modal" data-tense="Conditional" data-type="Modals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Debería comer esto?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Should I eat this?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp56')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be Able to (3)" data-tense="Conditional" data-type="Modals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Podría sentarme aquí?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>May/ Might/ Could I sit here?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp57')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be Able to (3)" data-tense="Conditional" data-type="Modals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Puedo/Podría hacer una pregunta?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>May/ Might/ Could I ask a question?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp58')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Modal" data-tense="Future" data-type="Modals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Te ayudo?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Shall I help you?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp59')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Modal" data-tense="Conditional" data-type="Modals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Debería esperar?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Ought I (to) wait?/ Should I wait?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp60')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be Able to (3)" data-tense="Present" data-type="Modals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Dónde puedo/podría sentarme?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Where may/can I sit?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp61')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be Able to (3)" data-tense="Conditional" data-type="Modals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Qué podría ser?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>What might/ could it be?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp62')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Have (2)" data-tense="Perfect" data-type="Modals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Lo habrás visto para entonces?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Will you have seen it by then?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp63')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Have (2)" data-tense="Perfect" data-type="Modals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Habríamos ido?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Would we have gone?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp64')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be Able to (3)" data-tense="Perfect" data-type="Modals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Ella podría haber hecho eso?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Could she have done that?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp65')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="" data-tense="Perfect" data-type="Modals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Debería haber comido eso?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Should I have eaten that?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp66')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be Able to (3)" data-tense="Perfect" data-type="Modals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Podrías haber hecho eso?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Might/May/Could you have done that?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp67')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be Able to (3)" data-tense="Perfect" data-type="Modals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Podría haber hecho una pregunta?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Might/May/Could I have asked a question?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp68')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Have (2)" data-tense="Perfect" data-type="Modals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Habrás hecho la cena para entonces?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Will you have made dinner by then?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp69')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Have (2)" data-tense="Perfect" data-type="Modals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Debería haber esperado?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Ought I (to) have waited?/ Should I have waited?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp70')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Have (2)" data-tense="Perfect" data-type="Modals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Qué podría haber sido?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>What might/ could it have been?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp71')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be Able to (3)" data-tense="Perfect" data-type="Modals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Cuándo podríamos haberlo hecho?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>When could we have done it?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp72')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Present" data-type="Question Tags" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>Soy gracioso, ¿verdad?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>I am funny, aren’t I?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp73')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Present" data-type="Question Tags" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>Tienes hambre, ¿no?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>You are hungry, aren’t you?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp74')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Present" data-type="Question Tags" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>Él es alto, ¿no?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>He is tall, isn’t he?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp75')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Have (2)" data-tense="Perfect" data-type="Question Tags" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>Has visto eso, ¿verdad?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>You have seen it, haven’t you?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp76')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Have (2)" data-tense="Perfect" data-type="Question Tags" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>Él ha comido, ¿verdad?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>He has eaten, hasn’t he?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp77')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be Able to (3)" data-tense="Present" data-type="Question Tags" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>Ella puede pintar, ¿no?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>She can paint, can’t she?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp78')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Past" data-type="Question Tags" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>Fui gracioso, ¿no?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>I was funny, wasn’t I?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp79')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Past" data-type="Question Tags" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>Tenías hambre, ¿verdad?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>You were hungry, weren’t you?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp80')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Perfect" data-type="Question Tags" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>Lo habías visto, ¿no?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>You had seen it, hadn’t you?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp81')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be Able to (3)" data-tense="Past" data-type="Question Tags" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>Ella podía pintar, ¿no?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>She could paint, couldn’t she?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp82')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Present" data-type="Question Tags" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>Necesito estar allí, ¿verdad?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>I need to be there, don’t I?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp83')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Present" data-type="Question Tags" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>Él habla inglés, ¿no?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>He speaks English, doesn’t he?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp84')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Past" data-type="Question Tags" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>Necesitaba estar allí, ¿no?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>I needed to be there, didn’t I?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp85')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Future" data-type="Question Tags" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>Serás médico, ¿no?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>You will be a doctor, won’t you?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp86')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Modal" data-tense="Conditional" data-type="Question Tags" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>Iríamos, ¿no?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>We would go, wouldn’t we?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp87')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be Able to (3)" data-tense="Conditional" data-type="Question Tags" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>Ella podría hacer eso, ¿no?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>She could do that, couldn’t she?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp88')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Modal" data-tense="Conditional" data-type="Question Tags" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Debería comer esto, no?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>I should eat this, shouldn’t I?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp89')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be Able to (3)" data-tense="Present" data-type="Question Tags" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Puedo sentarme aquí, verdad?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>I may/can sit here, right?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp90')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Modal" data-tense="Conditional" data-type="Question Tags" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Debería esperar, no?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>I ought to wait, shouldn’t I?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp91')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Present" data-type="Rhetoricals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿No es obvio?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Isn’t it obvious? </p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp92')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Present" data-type="Rhetoricals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿No estamos todos simplemente intentando hacer lo mejor que podemos?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Aren’t we all just trying to do our best? </p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp93')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Past" data-type="Rhetoricals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿No fue una clase increíble?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Wasn’t that an amazing lesson? </p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp94')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Have (2)" data-tense="Perfect" data-type="Rhetoricals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Alguna vez te he decepcionado?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Have I ever let you down? </p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp95')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Have (2)" data-tense="Perfect" data-type="Rhetoricals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿No ha estado ella siempre ahí para ti?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Hasn’t she always been there for you? </p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp96')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Have (2)" data-tense="Perfect" data-type="Rhetoricals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Acaso no hemos hecho todo lo que pudimos?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Have we not done everything we could? </p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp97')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Present" data-type="Rhetoricals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿No crees que aprender inglés es importante?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Don’t you think learning English is important? </p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp98')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be Able to (3)" data-tense="Perfect" data-type="Rhetoricals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Puedes creer lo rápido que ha pasado este año?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Can you believe how fast this year has gone by? </p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp99')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be Able to (3)" data-tense="Present" data-type="Rhetoricals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿No ves que estoy intentando ayudarte?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Can’t you see I’m trying to help? </p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp100')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be Able to (3)" data-tense="Conditional" data-type="Rhetoricals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Podría empeorar aún más?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Could it get any worse? </p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp101')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be Able to (3)" data-tense="Conditional" data-type="Rhetoricals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Podrías hablar más alto todavía?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Could you be any louder? </p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp102')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Present" data-type="Rhetoricals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿No es genial entender a hablantes nativos?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Doesn’t it feel great to understand native speakers?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp104')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Do (4)" data-tense="Past" data-type="Rhetoricals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿No te dije que esta regla era importante?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Didn’t I tell you this rule was important?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp105')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Modal" data-tense="Future" data-type="Rhetoricals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Alguna vez terminará esto?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Will it ever end?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp106')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Modal" data-tense="Conditional" data-type="Rhetoricals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Realmente esperarías algo diferente?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Would you really expect anything different?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp107')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be (1)" data-tense="Conditional" data-type="Rhetoricals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿No deberíamos estar haciendo algo al respecto?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Shouldn’t we be doing something about this?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp108')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be Able to (3)" data-tense="Conditional" data-type="Rhetoricals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Puedo preguntar qué diferencia haría?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>May/Might/Could I ask what difference it would make?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp109')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="To Be Able to (3)" data-tense="Perfect" data-type="Rhetoricals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿Podría ser esta la mejor idea que hemos tenido?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Might/Could this be the best idea we’ve ever had?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp110')">🔊 Listen</button>
+  </div>
+</div>
+
+<div class="card" data-friki="Modal" data-tense="Conditional" data-type="Rhetoricals" onclick="flipCard(this)">
+  <div class="front">
+    <div class="card-header">La Londinense</div>
+    <div class="highlight-front">
+      <p>¿No deberíamos reconsiderar esta decisión?</p>
+    </div>
+    <div class="card-footer">
+      <img src="logo.png" alt="La Londinense Logo">
+    </div>
+  </div>
+  <div class="back">
+    <div class="highlight-back">
+      <p>Ought we not to reconsider this decision?</p>
+    </div>
+    <button onclick="event.stopPropagation(); playAudio('am-i-funny.mp111')">🔊 Listen</button>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+
+  <script src="script.js"></script>
+<script>
+function applyFilters() {
+  const friki = document.getElementById('frikiFilter').value;
+  const tense = document.getElementById('tenseFilter').value;
+  const type = document.getElementById('typeFilter').value;
+
+  const cards = document.querySelectorAll('.card');
+
+  cards.forEach(card => {
+    const f = card.getAttribute('data-friki');
+    const t = card.getAttribute('data-tense');
+    const ty = card.getAttribute('data-type');
+
+    const show =
+      (friki === 'all' || f === friki) &&
+      (tense === 'all' || t === tense) &&
+      (type === 'all' || ty === type);
+
+    card.style.display = show ? 'block' : 'none';
+  });
+}
+
+document.getElementById('frikiFilter').addEventListener('change', applyFilters);
+document.getElementById('tenseFilter').addEventListener('change', applyFilters);
+document.getElementById('typeFilter').addEventListener('change', applyFilters);
+</script>
+</body>
+</html>
